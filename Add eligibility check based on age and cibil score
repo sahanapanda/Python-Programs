@@ -1,0 +1,11 @@
+age = int(input("Enter age : "))
+income = int(input("Enter income : "))
+cibil = int(input("Enter cibil score : "))
+if cibil >= 750:
+  print("EXCELLENT- ELIGIBLE")
+elif 750 > cibil >= 725 :
+  print("GOOD - ELIGIBLE")
+elif 725 > cibil >= 700:
+  print("AVERAGE - ELIGIBLE")
+elif age < 21 or income < 30000 or cibil<700:
+  print("NOT ELIGIBLE")
