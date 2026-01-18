@@ -1,0 +1,15 @@
+mark = int(input("Enter Marks:"))
+if 100>=mark>=90:
+  print("Grade A")
+elif 89>=mark>=80:
+  print("Grade B")
+elif 79>=mark>=70:
+  print("Grade C")
+elif 69>=mark>=60:
+  print("Grade D")
+elif 59>=mark>=45:
+  print("Grade E")
+elif 45>mark>=0:
+  print("Grade F")
+else:
+  print("Invalid Input")
