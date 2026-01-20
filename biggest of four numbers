@@ -1,0 +1,15 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+d = int(input("Enter fourth number: "))
+
+biggest = a
+
+if b > biggest:
+    biggest = b
+if c > biggest:
+    biggest = c
+if d > biggest:
+    biggest = d
+
+print("Biggest number is:", biggest)
