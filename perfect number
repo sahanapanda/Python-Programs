@@ -1,0 +1,10 @@
+#Perfect number or Not
+n = int(input("Enter a value : "))
+sum = 0
+for i in range (1,n//2+1):
+    if n%i==0:
+      sum = sum+i
+if sum==n:
+  print("It is a Perfect Number")
+else:
+  print("It is not a Perfect Number")
