@@ -1,0 +1,12 @@
+#Palindrome of a number
+n=int(input("Enter the value :"))
+rev = 0
+original = n
+while n>0:
+  digit = n%10
+  rev = rev*10 + digit
+  n = n//10
+if original==rev:
+  print("It is a Palindrome Number")
+else:
+  print("It is not a Palindrome Number")
