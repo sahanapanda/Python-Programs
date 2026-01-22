@@ -1,0 +1,6 @@
+#Program to calculate and display the gross salary after adding allowances.
+Basic_salary = float(input("Enter Basic Salary"))
+Hra = float(input("Enter Hra"))
+Da = float(input("Enter Da "))
+gross = Basic_salary + Hra + Da
+print("Gross salary : ", gross)
