@@ -1,0 +1,8 @@
+x = "problem solving and programming with python"
+print(x[0:7]) #First word
+print(x[8:15]) #Word "solving"
+print(x[20:31]) #Word "programming"
+print(x[-6:]) #Last word "python"
+print(x[:]) #Whole string
+print(x[::2]) #Every second character
+print(x[::-1]) #Reverse the string
