@@ -1,0 +1,14 @@
+# Perimeter of Rectangle
+l = float(input("Enter length: "))
+b = float(input("Enter breadth: "))
+print("Perimeter of Rectangle =", 2 * (l + b))
+
+# Perimeter of Square
+s = float(input("Enter side: "))
+print("Perimeter of Square =", 4 * s)
+
+# Perimeter of Triangle
+a = float(input("Enter side 1: "))
+b = float(input("Enter side 2: "))
+c = float(input("Enter side 3: "))
+print("Perimeter of Triangle =", a + b + c)
