@@ -1,0 +1,9 @@
+# Volume of Cube
+s = float(input("Enter side of cube: "))
+print("Volume of Cube =", s ** 3)
+
+# Volume of Cuboid
+l = float(input("Enter length: "))
+b = float(input("Enter breadth: "))
+h = float(input("Enter height: "))
+print("Volume of Cuboid =", l * b * h)
