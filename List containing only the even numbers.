@@ -1,0 +1,8 @@
+def even_list(l):
+    result=[]
+    for i in l:
+        if i%2==0:
+            result.append(i)
+    return result
+l = list(map(int,input().split()))
+print(even_list(l))
