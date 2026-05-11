@@ -1,4 +1,4 @@
-# Area of Rectangle of the given numbers
+# Area of Rectangle of the given number
 l = float(input("Enter length: "))
 b = float(input("Enter breadth: "))
 print("Area of Rectangle is ", l * b)
