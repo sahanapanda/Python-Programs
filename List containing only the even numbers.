@@ -1,5 +1,5 @@
 def even_list(l):
-    result=[]
+    result=[] 
     for i in l:
         if i%2==0:
             result.append(i)
