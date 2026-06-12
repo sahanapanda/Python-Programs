@@ -3,7 +3,7 @@ l = float(input("Enter length: "))
 b = float(input("Enter breadth: "))
 print("Area of Rectangle is ", l * b)
 
-# Area of Square
+# Area of Square 
 s = float(input("Enter side: "))
 print("Area of Square is ", s * s)
 
