@@ -19,7 +19,7 @@ class Solution(object):
             if j >= 0:
                 total += int(b[j])
                 j -= 1
-                
+         
             result.append(str(total % 2))
             carry = total // 2
             
